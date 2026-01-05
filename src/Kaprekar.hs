@@ -1,13 +1,13 @@
 module Kaprekar where
 
 import Prelude
+
 import Data.List (sort)
 
 kaprekars :: [Integer]
 kaprekars =
   [ x
-  | x <- [0..]
-  , mod x 9 == 0
+  | x <- 0 : [9,18..]
   , k x == x
   ]
   where
