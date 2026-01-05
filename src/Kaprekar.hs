@@ -11,6 +11,8 @@ kaprekars =
   , k x == x
   ]
   where
-    k n = big n - small n
-    big = read . reverse . sort . show
-    small = read . sort . show
+    k n = big - small
+      where
+        big = read $ reverse m
+        small = read m
+        m = sort $ show n
