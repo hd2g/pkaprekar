@@ -5,11 +5,7 @@ import Prelude
 import Data.List (sort)
 
 kaprekars :: [Integer]
-kaprekars =
-  [ x
-  | x <- 0 : [9,18..]
-  , k x == x
-  ]
+kaprekars = [x | x <- 0 : [9,18..] , k x == x]
   where
     k n = big - small
       where
