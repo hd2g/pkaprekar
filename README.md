@@ -2,6 +2,8 @@
 
 ## Video
 
+<video src="https://github.com/user-attachments/assets/214f3858-de8c-42b9-82a3-734a47bd2e53"></video>
+
 ## Output
 
 ```terminal
