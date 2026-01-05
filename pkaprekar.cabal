@@ -15,6 +15,7 @@ common settings
     -Wincomplete-uni-patterns
     -Wpartial-fields
     -Wredundant-constraints
+    -O2
   default-extensions:
     BangPatterns
     BinaryLiterals
